@@ -1,0 +1,15 @@
+{
+  "schema_id": "location_v1",
+  "version": 1,
+  "type": "json",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "vehicle_id": { "type": "string" },
+      "lat": { "type": "number" },
+      "lng": { "type": "number" },
+      "timestamp": { "type": "string" }
+    },
+    "required": ["vehicle_id", "lat", "lng", "timestamp"]
+  }
+}
